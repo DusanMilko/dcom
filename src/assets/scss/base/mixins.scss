@@ -1,0 +1,9 @@
+// Example: @include font-size-resp(320, 20, 1600, 50);
+
+@mixin font-size-resp($small-width, $small-font, $large-width, $large-font) {
+  font-size: calc( #{$small-font}px + (#{$large-font} - #{$small-font}) * ((100vw - #{$small-width}px) / (#{$large-width} - #{$small-width})) );
+
+  @media screen and (min-width:#{$large-width}px){
+    font-size: #{$large-font}px;
+  }
+}

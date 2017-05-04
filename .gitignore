@@ -1,0 +1,36 @@
+# Common Development Folders #
+##############################
+.sass-cache/
+cache/
+vendor/
+logs/
+node_modules/
+bower_components/
+build/
+dist/
+custom-icon-font.*
+
+# Common Text Editor or IDE files #
+###################################
+.idea/
+*.sublime-workspace
+*.tmproj
+*.tmproject
+tmtags
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Common OS generated files #
+#############################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+npm-debug.log
