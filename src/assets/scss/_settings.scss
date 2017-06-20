@@ -116,7 +116,7 @@ $header-lineheight: 1.2;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   xsmall: (
-    'h1': ('font-size': 32),
+    'h1': ('font-size': 42),
     'h2': ('font-size': 30),
     'h3': ('font-size': 24),
     'h4': ('font-size': 18),
@@ -124,7 +124,7 @@ $header-styles: (
     'h6': ('font-size': 16),
   ),
   medium: (
-    'h1': ('font-size': 52),
+    'h1': ('font-size': 62),
     'h2': ('font-size': 48),
     'h3': ('font-size': 36),
     'h4': ('font-size': 30),
@@ -145,7 +145,7 @@ $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $primary-color;
-$anchor-color-hover: $warning-color;//scale-color($anchor-color, $lightness: -14%);
+$anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;

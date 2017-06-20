@@ -75,6 +75,10 @@ section,
   width: 100%;
   float: left;
   clear: both;
+
+  &> .row > h2 {
+    padding-top: 60px;
+  }
 }
 .row--inner {
   max-width: 960px;

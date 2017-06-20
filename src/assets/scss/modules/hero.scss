@@ -1,0 +1,14 @@
+.hero {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+  @include breakpoint(medium) {
+    height: 70vh;
+  }
+
+  @include breakpoint(xlarge) {
+    height: 90vh;
+  }
+}

@@ -1,0 +1,31 @@
+footer {
+  width: 100%;
+  float: left;
+  padding: 0 20px;
+
+  ul {
+    display: flex;
+    padding: 10px 0px;
+  }
+
+  li {
+    display: inline;
+    padding: 5px;
+
+    a {
+      font-size: 12px;
+
+      i {
+        font-size: 20px;
+      }
+    }
+  }
+
+  li:first-child {
+    padding-left: 0;
+  }
+
+  li:nth-child(2) {
+    margin-right: auto;
+  }
+}
